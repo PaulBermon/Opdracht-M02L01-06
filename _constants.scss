@@ -1,0 +1,18 @@
+/* Colors */
+
+
+$title__line--color: #000;
+$header--bgcolor: #c0eea9;
+$hero--bgcolor: #97d279;
+$about--bgcolor: #97d279;
+
+/* Standard padding */
+$padding--standard: 20px;
+
+/* Standard text markup '@include text-standard */
+
+@mixin text-standard {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.4em;
+}
